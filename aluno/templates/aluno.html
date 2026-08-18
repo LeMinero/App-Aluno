@@ -1,0 +1,8 @@
+{% templatetag openblock %} for aluno in alunos {% templatetag closeblock %}
+<li>
+
+    <strong>{% templatetag openvariable %} aluno.nome {% templatetag closevariable %}</strong>
+    -{% templatetag openvariable %} aluno.curso {% templatetag closevariable %} 
+<li>
+
+{%templatetag openblock %} endfor {% templatetag closeblock %}
