@@ -91,17 +91,17 @@ Certifique-se de ter as seguintes ferramentas instaladas na sua máquina:
 ## 📸 Demonstração da Interface
 
 ![Tela Principal](https://github.com/user-attachments/assets/cc615d22-33a6-4696-a8e3-fa86b9b41f2e)
-*Legenda: Visualização do Cartão de Identidade Acadêmica*
+*Legenda: Interface de Gerenciamento (Django Admin)*
 
 <br />
 
 ![Perfil do Aluno](https://github.com/user-attachments/assets/7f3629d5-c355-44fe-8893-8aee8d26cb32)
-*Legenda: Ficha do Aluno com Nome, Curso e Bio*
+*Legenda: Área de Login (Django Admin)*
 
 <br />
 
 ![Painel Administrativo](https://github.com/user-attachments/assets/520ce0e6-97c4-4973-8b92-ff7097cec3ed)
-*Legenda: Interface de Gerenciamento (Django Admin)*
+*Legenda: Aba de alunos cadastrados*
 
 
     
