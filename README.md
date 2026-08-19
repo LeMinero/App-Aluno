@@ -88,14 +88,20 @@ Certifique-se de ter as seguintes ferramentas instaladas na sua máquina:
 
     
     
-    <img width="1502" height="792" alt="image" src="https://github.com/user-attachments/assets/068e4d1f-40e7-4127-a8c9-72a0d4341c26" />
-    
+## 📸 Demonstração da Interface
 
-    <img width="1505" height="715" alt="image" src="https://github.com/user-attachments/assets/22bddce2-451c-42e1-be28-a344054a04d7" />
-    
+![Tela Principal](https://github.com/user-attachments/assets/cc615d22-33a6-4696-a8e3-fa86b9b41f2e)
+*Legenda: Visualização do Cartão de Identidade Acadêmica*
 
-    <img width="1502" height="709" alt="image" src="https://github.com/user-attachments/assets/a6e9a8f4-a1f8-4776-99f8-d9b3f66f4b74" />
+<br />
 
+![Perfil do Aluno](https://github.com/user-attachments/assets/7f3629d5-c355-44fe-8893-8aee8d26cb32)
+*Legenda: Ficha do Aluno com Nome, Curso e Bio*
+
+<br />
+
+![Painel Administrativo](https://github.com/user-attachments/assets/520ce0e6-97c4-4973-8b92-ff7097cec3ed)
+*Legenda: Interface de Gerenciamento (Django Admin)*
 
 
     
