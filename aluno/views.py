@@ -3,7 +3,7 @@ from .models import Aluno
 
 def aluno(request):
     alunos = Aluno.objects.all()
-    return render (request,'aluno.html',{'alunos': alunos})
+    return render (request,'aluno/aluno.html',{'alunos': alunos})
 
 def criar_aluno(request):
     if request.method == 'POST':
@@ -11,7 +11,7 @@ def criar_aluno(request):
         curso = request.POST['curso']
         bio = request.POST.get('bio', '')
 
-        Aluno.objects.creat(nome=nome, curso=curso, bio=bio)
+        Aluno.objects.create(nome=nome, curso=curso, bio=bio)
         return redirect('listar_alunos')
     
     return render(request, 'aluno/form_aluno.html', {'titulo': 'Novo Aluno'})
@@ -24,7 +24,7 @@ def editar_aluno(request, pk):
         aluno.curso = request.POST['curso']
         aluno.bio = request.POST.get('bio', '')
         aluno.save()
-        return redirect('listar_aluno')
+        return redirect('listar_alunos')
 
     return render(request, 'aluno/form_aluno.html', {'aluno': aluno, 'titulo': f'Editar: {aluno.nome}' })
 
